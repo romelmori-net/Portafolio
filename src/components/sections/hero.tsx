@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="mt-12 md:mt-0 md:w-1/2 flex justify-center">
-        <div className="relative">
+        <div className="relative animate-float">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-300">
             <Image
               src="https://placehold.co/400x400.png"

@@ -31,9 +31,10 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="transition-colors hover:text-primary"
+                className="relative group transition-colors hover:text-primary"
               >
-                {item.label}
+                <span>{item.label}</span>
+                <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 bg-primary transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
               </Link>
             ))}
           </nav>
