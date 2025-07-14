@@ -10,38 +10,38 @@ interface Service {
 
 const servicesData: Service[] = [
   {
-    title: "Full Stack Development",
-    description: "Building responsive and scalable web applications from front-end to back-end.",
+    title: "Desarrollo Full Stack",
+    description: "Construcción de aplicaciones web responsivas y escalables, desde el front-end hasta el back-end.",
     icon: Code,
   },
   {
-    title: "IT Consulting",
-    description: "Providing expert advice to help you make the right technology decisions.",
+    title: "Consultoría TI",
+    description: "Asesoramiento experto para ayudarte a tomar las decisiones tecnológicas correctas.",
     icon: Search,
   },
   {
-    title: "Cloud Infrastructure",
-    description: "Designing and managing robust cloud solutions on platforms like AWS and Firebase.",
+    title: "Infraestructura en la Nube",
+    description: "Diseño y gestión de soluciones robustas en la nube en plataformas como AWS y Firebase.",
     icon: Cloud,
   },
   {
-    title: "Security & Testing",
-    description: "Ensuring your applications are secure, reliable, and performant through rigorous testing.",
+    title: "Seguridad y Pruebas",
+    description: "Asegurando que tus aplicaciones sean seguras, fiables y de alto rendimiento a través de pruebas rigurosas.",
     icon: ShieldCheck,
   },
   {
-    title: "System Maintenance",
-    description: "Offering ongoing support and maintenance to keep your systems running smoothly.",
+    title: "Mantenimiento de Sistemas",
+    description: "Soporte y mantenimiento continuo para que tus sistemas funcionen sin problemas.",
     icon: LifeBuoy,
   },
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="container py-24 sm:py-32">
-      <h2 className="text-center font-headline text-3xl md:text-4xl font-bold">Services I Offer</h2>
+    <section id="services" className="container py-24 sm:py-32 animate-fade-in-up">
+      <h2 className="text-center font-headline text-3xl md:text-4xl font-bold">Servicios que Ofrezco</h2>
       <p className="text-center mt-4 max-w-2xl mx-auto text-muted-foreground">
-        From custom development to cloud infrastructure, here's how I can help you succeed.
+        Desde desarrollo personalizado hasta infraestructura en la nube, así es como puedo ayudarte a tener éxito.
       </p>
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {servicesData.map((service) => (

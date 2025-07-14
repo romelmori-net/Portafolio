@@ -26,11 +26,11 @@ const skillsData = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-secondary py-24 sm:py-32">
+    <section id="skills" className="bg-secondary py-24 sm:py-32 animate-fade-in-up">
       <div className="container">
-        <h2 className="text-center font-headline text-3xl md:text-4xl font-bold">Technical Skills</h2>
+        <h2 className="text-center font-headline text-3xl md:text-4xl font-bold">Habilidades Técnicas</h2>
         <p className="text-center mt-4 max-w-2xl mx-auto text-muted-foreground">
-          A look at the technologies I excel in, from front-end to back-end and DevOps.
+          Un vistazo a las tecnologías en las que destaco, desde el front-end hasta el back-end y DevOps.
         </p>
         <Tabs defaultValue="frontend" className="mt-12">
           <TabsList className="grid w-full max-w-md mx-auto grid-cols-3">
@@ -47,7 +47,7 @@ export default function Skills() {
                     <CardTitle>{skill.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <Progress value={skill.level} aria-label={`${skill.name} proficiency`} />
+                    <Progress value={skill.level} aria-label={`Nivel en ${skill.name}`} />
                   </CardContent>
                 </Card>
               ))}
@@ -62,7 +62,7 @@ export default function Skills() {
                     <CardTitle>{skill.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <Progress value={skill.level} aria-label={`${skill.name} proficiency`} />
+                    <Progress value={skill.level} aria-label={`Nivel en ${skill.name}`} />
                   </CardContent>
                 </Card>
               ))}
@@ -77,7 +77,7 @@ export default function Skills() {
                     <CardTitle>{skill.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <Progress value={skill.level} aria-label={`${skill.name} proficiency`} />
+                    <Progress value={skill.level} aria-label={`Nivel en ${skill.name}`} />
                   </CardContent>
                 </Card>
               ))}

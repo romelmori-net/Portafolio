@@ -12,12 +12,12 @@ const technologies = [
 
 export default function About() {
   return (
-    <section id="about" className="container py-24 sm:py-32">
+    <section id="about" className="container py-24 sm:py-32 animate-fade-in-up">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="relative w-full max-w-md mx-auto">
           <Image
             src="https://placehold.co/600x600.png"
-            alt="About me"
+            alt="Sobre Mí"
             width={600}
             height={600}
             className="rounded-xl shadow-lg"
@@ -25,22 +25,22 @@ export default function About() {
           />
         </div>
         <div>
-          <h2 className="font-headline text-3xl md:text-4xl font-bold">About Me</h2>
+          <h2 className="font-headline text-3xl md:text-4xl font-bold">Sobre Mí</h2>
           <p className="mt-4 text-muted-foreground">
-            A passionate and results-driven System Engineer with a decade of experience in designing, developing, and deploying high-quality software solutions. My journey in tech has been fueled by a relentless curiosity and a drive to solve complex problems with elegant and efficient code.
+            Un Ingeniero de Sistemas apasionado y orientado a resultados con una década de experiencia en el diseño, desarrollo e implementación de soluciones de software de alta calidad. Mi viaje en la tecnología ha sido impulsado por una curiosidad incesante y el deseo de resolver problemas complejos con código elegante y eficiente.
           </p>
           <div className="mt-8 space-y-4">
             <div>
-              <h3 className="text-lg font-semibold text-primary">My Mission</h3>
-              <p className="text-muted-foreground">To leverage technology to build products that not only meet business goals but also provide a seamless and enjoyable user experience.</p>
+              <h3 className="text-lg font-semibold text-primary">Mi Misión</h3>
+              <p className="text-muted-foreground">Aprovechar la tecnología para construir productos que no solo cumplan los objetivos de negocio, sino que también ofrezcan una experiencia de usuario fluida y agradable.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-primary">My Vision</h3>
-              <p className="text-muted-foreground">To be at the forefront of innovation, continuously learning and adapting to new technologies to create a better, more connected digital world.</p>
+              <h3 className="text-lg font-semibold text-primary">Mi Visión</h3>
+              <p className="text-muted-foreground">Estar a la vanguardia de la innovación, aprendiendo y adaptándome continuamente a las nuevas tecnologías para crear un mundo digital mejor y más conectado.</p>
             </div>
           </div>
           <div className="mt-8">
-            <h3 className="text-lg font-semibold text-primary mb-4">Technologies I Handle</h3>
+            <h3 className="text-lg font-semibold text-primary mb-4">Tecnologías que Manejo</h3>
             <div className="flex flex-wrap gap-4">
               {technologies.map(tech => (
                 <div key={tech.name} className="flex items-center gap-2 p-2 bg-secondary rounded-md">

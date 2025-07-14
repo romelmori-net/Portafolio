@@ -7,8 +7,8 @@ import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Project Alpha",
-    description: "A full-stack web application for managing tasks and collaborating with teams. Features real-time updates and a modern UI.",
+    title: "Proyecto Alpha",
+    description: "Una aplicación web full-stack para gestionar tareas y colaborar con equipos. Con actualizaciones en tiempo real y una interfaz moderna.",
     image: "https://placehold.co/600x400.png",
     technologies: ["Next.js", "Firebase", "Tailwind CSS"],
     demoUrl: "#",
@@ -16,8 +16,8 @@ const projects = [
     aiHint: "dashboard analytics"
   },
   {
-    title: "Project Beta",
-    description: "An e-commerce platform with a custom CMS, payment gateway integration, and advanced filtering options.",
+    title: "Proyecto Beta",
+    description: "Una plataforma de e-commerce con un CMS personalizado, integración de pasarela de pago y opciones de filtrado avanzadas.",
     image: "https://placehold.co/600x400.png",
     technologies: ["React", "Node.js", "PostgreSQL"],
     demoUrl: "#",
@@ -25,8 +25,8 @@ const projects = [
     aiHint: "online store"
   },
   {
-    title: "Project Gamma",
-    description: "A cloud-native data processing pipeline on AWS, designed for scalability and high-throughput.",
+    title: "Proyecto Gamma",
+    description: "Un pipeline de procesamiento de datos nativo en la nube en AWS, diseñado para escalabilidad y alto rendimiento.",
     image: "https://placehold.co/600x400.png",
     technologies: ["Python", "AWS Lambda", "Docker"],
     demoUrl: "#",
@@ -37,11 +37,11 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className="bg-secondary py-24 sm:py-32">
+    <section id="portfolio" className="bg-secondary py-24 sm:py-32 animate-fade-in-up">
       <div className="container">
-        <h2 className="text-center font-headline text-3xl md:text-4xl font-bold">Portfolio</h2>
+        <h2 className="text-center font-headline text-3xl md:text-4xl font-bold">Portafolio</h2>
         <p className="text-center mt-4 max-w-2xl mx-auto text-muted-foreground">
-          A selection of projects that showcase my skills and passion for development.
+          Una selección de proyectos que muestran mis habilidades y pasión por el desarrollo.
         </p>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (

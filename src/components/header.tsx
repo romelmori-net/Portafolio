@@ -8,12 +8,12 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { ThemeToggle } from '@/components/theme-toggle';
 
 const navItems = [
-  { label: 'Home', href: '#home' },
-  { label: 'About Me', href: '#about' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Services', href: '#services' },
-  { label: 'Portfolio', href: '#portfolio' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Inicio', href: '#home' },
+  { label: 'Sobre Mí', href: '#about' },
+  { label: 'Habilidades', href: '#skills' },
+  { label: 'Servicios', href: '#services' },
+  { label: 'Portafolio', href: '#portfolio' },
+  { label: 'Contacto', href: '#contact' },
 ];
 
 export default function Header() {
@@ -46,7 +46,7 @@ export default function Header() {
               className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
             >
               <Menu className="h-5 w-5" />
-              <span className="sr-only">Toggle Menu</span>
+              <span className="sr-only">Abrir Menú</span>
             </Button>
           </SheetTrigger>
           <SheetContent side="left" className="pr-0">
@@ -77,7 +77,7 @@ export default function Header() {
           <nav className="flex items-center">
             <ThemeToggle />
             <Button asChild variant="destructive" className="ml-2 hidden sm:inline-flex">
-              <a href="/cv.pdf" download="cv-johndoe.pdf">Download CV</a>
+              <a href="/cv.pdf" download="cv-johndoe.pdf">Descargar CV</a>
             </Button>
           </nav>
         </div>
