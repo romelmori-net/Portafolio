@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="home" className="container flex flex-col md:flex-row items-center justify-center text-center md:text-left min-h-[calc(100vh-56px)] py-16 md:py-24 animate-fade-in-up">
       <div className="md:w-1/2 md:pr-12">
         <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tighter leading-tight">
-          John Doe
+          Roly Mori
         </h1>
         <p className="text-xl md:text-2xl text-primary font-medium mt-2">
           Ingeniero de Sistemas
@@ -46,7 +46,7 @@ export default function Hero() {
         <div className="relative animate-float">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-300">
             <Image
-              src="https://placehold.co/400x400.png"
+              src="/static/media/Perfil-Mori.jpeg"
               alt="Foto de perfil"
               width={400}
               height={400}

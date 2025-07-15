@@ -4,7 +4,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Sysfolio - Portafolio Profesional',
+  title: 'Ing.Mori - Portafolio Profesional',
   description: 'Un portafolio moderno y dinámico para un Ingeniero de Sistemas.',
 };
 
